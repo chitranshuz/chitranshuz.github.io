@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHITRANSHU GUPTA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CHITRANSHU GUPTA</h1>
+        <p>DevFinOps Engineer</p>
+        <p>Dedicated and results-driven DevFinOps professional committed to continuous improvement. Proficient in a wide range of tools and technologies, I excel at troubleshooting complex issues and consistently strive for operational excellence.</p>
+    </header>
+
+    <section>
+        <h2>Experience</h2>
+        <h3>KPMG, May, 2023 - Current | DevOps Consultant</h3>
+        <ul>
+            <li> </li>
+            <h4>Client 2</h4>
+            <li>•	Managed and worked on migrating Action Runner controllers to improve our Git organization’s ability to run over 2000+ workflows seamlessly without wait time, leveraging EKS clusters, helm chats and terraform. </li>
+            <li>•	Using Terraform to provision the infrastructure and using AWS managed Prometheus and Grafana for monitoring. </li>
+            <li>•	Created reusable Terraform modules utilized by different teams in their projects, which were ultimately integrated into the AWS Landing Zone project.</li>
+            <li>•	Developed Python scripts for various use cases, enabling automation support for multiple teams.</li>
+            <li> </li>
+            <h4>Client 1</h4>
+            <li>•	Managed over 200 AWS and Azure accounts, resulting in savings of up to $6 million.</li>
+            <li>•	Employed Cloudability for cost reports and visualizations.</li>
+            <li>•	Achieved AWS cost optimization through automation, focusing on savings in compute, input-output, storage services, etc.</li>
+            <li>•	Utilized auto-scaling, spot instances, and scheduled shutdowns for cost efficiency.</li>
+            <li>•	Developed Python automation scripts using Boto libraries for AWS operations, Conducted unit testing with Pytest to mock API behavior.</li>
+            <li>•	Implemented CI/CD pipelines with GitHub workflows.</li>
+            <li>•	Used Terraform to create Lambda function in AWS.</li>
+            <li>•	Ensured Terraform code quality with Checkov and Checkmarx for IAC.</li>
+        </ul>
+
+        <h3>LTIMindtree, June, 2018 - May, 2023 | Sr. DevOps Engineer</h3>
+        <ul>
+            <li> </li>
+            <h4>Client 3</h4>
+            <li>•	Implemented HashiCorp vault in project for secret management.</li>
+            <li>•	Took the ownership of a complete product, collaborated with multiple dev teams from different time zone (US, Poland, and Korea). </li>
+            <li>    •	Contributed to the architecture discussions.</li>
+            <li>    •	Provisioned AWS resources like route 53, Load Balancer, RDS, EFS, S3 and EC2 using Terraform, Chef and AWS CLI.</li>
+            <li>    •	Deployed Frontend on S3 using Gitlab CI/CD and Backend on EC2 using Chef. </li>
+            <li>    •	DevOps best practices were followed for end-to-end implementation.</li>
+            <li>•	Developed custom scripts to restore millions of objects in S3 bucket from Glacier to Standard storage using Bulk retrieval method for cost optimization.</li>
+            <li>•	Moved s3 buckets between AWS accounts and objects to deep archive using AWS CLI. Created life cycle policies for buckets.</li>
+            <li>•	Maintain AWS resources like RDS, S3, EC2, and VPC. Used route 53 and created alarms in cloud watch.</li>
+            <li>•	Created shell scripts to copy, move S3 objects.</li>
+            <li>•	Handled Chef Recipes and cookbooks.</li>
+            <li> </li>
+            <h4>Client 2</h4>
+            <li>•   Create end to end POC as per client’s requirement.</li>
+            <li>•	Demonstrate and guide Mindtree teams implement in their current Project.</li>
+            <li>•	Installed and integrated JFrog with JFrog X-ray to created reports for the artifacts present inside Artifactory.</li>
+            <li>•	Created Docker image of java application, containerized the application, pushed it to Docker hub, ran a container-based version of DB. Created Docker Compose file to spin up the containers and mounted the data outside of container to local disk.</li>
+            <li>•	Terraform to provision AWS Fargate cluster inside Private AWS VPC to deploy Docker images stored on JFrog.</li>
+            <li>•	For client demo used AWS AppMesh for blue-green deployment using cloud formation.</li>
+            <li>•	Used Azure DevOps to provision AWS resources using Terraform and created VM in azure to run JFrog and JFrog x-ray for Artifacts.</li>
+            <li>•	Site-to-site VPN connection between AWS and azure to use resource on private network.</li>
+            <li> </li>
+            <h4>Client 1</h4>
+            <li>•	Created shell scripts in admin servers to perform deployment tasks. Wrote shell scripts for Jenkins jobs.</li>
+            <li>•	Used SonarQube for code analysis and quality gate.</li>
+            <li>•	Jenkins pipeline which gets triggered whenever developers push the code to GitHub. Created a pipeline consisted of upstream and downstream jobs. Integrated email service to dev-team if job fails. Used Artifactory JFrog for artifacts.</li>
+</li>
+ </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <h3>BTech in Computer Science - with Honors</h3>
+        <p>Jaipur Engineering College & Research Centre, 2014-2018</p>
+    </section>
+
+
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li><b>Cloud</b>                 : AWS, AZURE </li> 
+            <li><b>IAC     </b>                 : Terraform</li>
+            <li><b>Secret Management  </b>      : hashicorp Vault</li>
+            <li><b>Container     </b>           : Docker, k8, Helm</li>
+            <li><b>CI-CD           </b>         : Github Action, azure Devops, argocd </li>
+            <li><b>Configuration Management </b>: Chef</li>
+            <li><b>Programming    </b>          : Python</li>
+            <li><b>Monitoring  </b>             : Prometheus and Grafana</li>
+            <li><b>Others     </b>              : FinOps, Togaf, Jenkins, Agile, Confluence, Jira, Linux, Windows</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <ul>
+            <a href="https://linkedin.com/in/chitranshu-gupta-5b967b1a5">
+                LinkedIn
+            </a>
+        </ul>
+    </section>
+</body>
+</html>
