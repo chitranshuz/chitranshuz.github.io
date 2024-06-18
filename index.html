@@ -44,6 +44,26 @@
         li {
             margin-bottom: 5px;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        td:first-child {
+            width: 30%;
+            font-weight: bold;
+        }
+        td:last-child {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -121,17 +141,40 @@
 
     <section>
         <h2>Skills</h2>
-        <ul>
-            <li><b>Cloud</b>                 : AWS, AZURE </li> 
-            <li><b>IAC     </b>                 : Terraform</li>
-            <li><b>Secret Management  </b>      : hashicorp Vault</li>
-            <li><b>Container     </b>           : Docker, k8, Helm</li>
-            <li><b>CI-CD           </b>         : Github Action, azure Devops, argocd </li>
-            <li><b>Configuration Management </b>: Chef</li>
-            <li><b>Programming    </b>          : Python</li>
-            <li><b>Monitoring  </b>             : Prometheus and Grafana</li>
-            <li><b>Others     </b>              : FinOps, Togaf, Jenkins, Agile, Confluence, Jira, Linux, Windows</li>
-        </ul>
+        <table>
+        <tr>
+            <th>Tools</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><b>Cloud</b><br>AWS, AZURE</td>
+            <td rowspan="9" style="vertical-align: top;"><img src="path/to/your/image.jpg" alt="Image description"></td>
+        </tr>
+        <tr>
+            <td><b>IAC</b><br>Terraform</td>
+        </tr>
+        <tr>
+            <td><b>Secret Management</b><br>HashiCorp Vault</td>
+        </tr>
+        <tr>
+            <td><b>Container</b><br>Docker, k8, Helm</td>
+        </tr>
+        <tr>
+            <td><b>CI-CD</b><br>GitHub Actions, Azure DevOps, ArgoCD</td>
+        </tr>
+        <tr>
+            <td><b>Configuration Management</b><br>Chef</td>
+        </tr>
+        <tr>
+            <td><b>Programming</b><br>Python</td>
+        </tr>
+        <tr>
+            <td><b>Monitoring</b><br>Prometheus and Grafana</td>
+        </tr>
+        <tr>
+            <td><b>Others</b><br>FinOps, TOGAF, Jenkins, Agile, Confluence, Jira, Linux, Windows</td>
+        </tr>
+    </table>
     </section>
 
     <section>
